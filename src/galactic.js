@@ -10,8 +10,8 @@ export function Cosmic(name, age) {
 let myCosmo = new Cosmic("jack", 31);
 
 Cosmic.prototype.convertAge = function () {
-  mercuryAge = Math.floor(this.age / 0.24);
-  venusAge = Math.floor(this.age / 0.62);
-  marsAge = Math.floor(this.age / 1.88);
-  jupiterAge = Math.floor(this.age / 11.86);
+  this.mercuryAge = Math.floor(this.age / 0.24);
+  this.venusAge = Math.floor(this.age / 0.62);
+  this.marsAge = Math.floor(this.age / 1.88);
+  this.jupiterAge = Math.floor(this.age / 11.86);
 };
