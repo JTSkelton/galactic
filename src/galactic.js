@@ -1,4 +1,4 @@
-function Cosmic(name, age) {
+export function Cosmic(name, age) {
   this.name = name;
   this.age = age;
   this.mercuryAge;
